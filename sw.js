@@ -13,7 +13,7 @@ self.addEventListener('install', function (event) {
      './index.html',
      './scripts/main.js',
      './scripts/Router.js',
-     './images/icons/5-start.svg'
+     './images/icons/5-star.svg'
    ]
    event.waitUntil(
     caches.open(CACHE_NAME)
