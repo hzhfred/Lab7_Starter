@@ -10,10 +10,13 @@ self.addEventListener('install', function (event) {
    * Create a function as outlined above
    */
    let urlsToCache = [
-     './index.html',
-     './scripts/main.js',
-     './scripts/Router.js',
-     './assets/images/icons/5-star.svg'
+     '/',
+     '/index.html',
+     '/scripts/main.js',
+     '/scripts/Router.js',
+     '/assets/images/icons/5-star.svg',
+     '/assets/components/RecipeCard.js',
+     '/assets/components/RecipeExpand.js'
    ]
    event.waitUntil(
     caches.open(CACHE_NAME)
